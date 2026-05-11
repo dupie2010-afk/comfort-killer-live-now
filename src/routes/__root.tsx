@@ -19,9 +19,16 @@ function RootComponent() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
   const location = useLocation()
 
-  // Close menu on route change
+  // Close menu on route change and track pageview
   React.useEffect(() => {
     setIsMenuOpen(false)
+    
+    // Google Analytics Pageview Tracking
+    if (typeof (window as any).gtag === 'function') {
+      (window as any).gtag('config', 'G-LXEZVZM2TQ', {
+        page_path: location.pathname,
+      })
+    }
   }, [location.pathname])
 
   return (
