@@ -105,7 +105,7 @@ function ProductCard({
 }: { 
   title: string,
   image?: string,
-  price: string, 
+  price?: string, 
   description: string, 
   type: string, 
   featured?: boolean, 
