@@ -59,7 +59,7 @@ function ProductsPage() {
             title="The Shadow Protocol"
             price="COMING SOON"
             description="Forging your deep dark shadows. First drop approaching."
-            type="New Entity Teaser"
+            type="Entity Teaser"
             disabled
           />
         </div>
