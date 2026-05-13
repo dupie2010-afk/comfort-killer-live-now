@@ -69,7 +69,6 @@ function ProductsPage() {
           {submitted ? (
             <p className="text-brand-red font-black text-xl uppercase italic">The call is coming. Watch your inbox.</p>
           ) : (
-            <>
               <p className="text-white/50 mb-8 max-w-2xl mx-auto font-medium">
                 The inner circle membership is currently closed. Enter your email to be notified when we open new slots for the next cohort.
               </p>
@@ -86,7 +85,6 @@ function ProductsPage() {
                   Notify Me
                 </button>
               </form>
-            </>
           )}
         </div>
       </div>
@@ -169,7 +167,6 @@ function ProductCard({
           </div>
         )}
         {title !== "7 DAY PROTOCOL" && (
-      <>
         <span className="text-xs font-black text-brand-red uppercase tracking-[0.2em] mb-2">{type}</span>
         <h3 className="text-2xl font-black mb-4 group-hover:text-brand-red transition-colors">{title}</h3>
         <p className="text-white/50 mb-8 leading-relaxed flex-1 italic font-medium">"{description}"</p>
