@@ -187,6 +187,7 @@ function ProductCard({
           </div>
         )}
         {title !== "7 DAY PROTOCOL" && (
+      <>
         <span className="text-xs font-black text-brand-red uppercase tracking-[0.2em] mb-2">{type}</span>
         <h3 className="text-2xl font-black mb-4 group-hover:text-brand-red transition-colors">{title}</h3>
         <p className="text-white/50 mb-8 leading-relaxed flex-1 italic font-medium">"{description}"</p>
@@ -205,6 +206,7 @@ function ProductCard({
             >
               {ctaText}
             </a>
+        </>
           )}
         </div>
       </div>
