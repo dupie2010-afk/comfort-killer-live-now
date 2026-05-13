@@ -47,6 +47,7 @@ function ProductsPage() {
           
           <ProductCard 
             title="7-DAY PROTOCOL"
+            image="/images/Vover.png"
             price="$9.99"
             description="The hardcore discomfort challenge designed to kill your autopilot. 7 days of execution. No excuses."
             type="Challenge"
