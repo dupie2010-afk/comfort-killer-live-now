@@ -125,7 +125,7 @@ function ProductCard({
   <img
     src={image}
     alt={title}
-    className="w-full h-auto object-cover mb-4 rounded"
+    className="w-full h-56 object-cover object-top mb-4 rounded"
   />
 )}
         {featured && (
