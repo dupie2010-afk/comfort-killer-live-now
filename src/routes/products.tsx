@@ -121,6 +121,13 @@ function ProductCard({
       className={`p-1 flex flex-col h-full ${featured ? 'bg-gradient-to-b from-brand-red to-transparent shadow-[0_0_30px_rgba(139,0,0,0.2)]' : 'bg-white/5 border border-white/10'}`}
     >
       <div className="bg-black p-8 flex-1 flex flex-col relative overflow-hidden group">
+        {image && (
+  <img
+    src={image}
+    alt={title}
+    className="w-full h-64 object-cover mb-4 rounded"
+  />
+)}
         {featured && (
            <div className="absolute top-0 right-0 bg-brand-red text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest z-20">
              Most Essential
