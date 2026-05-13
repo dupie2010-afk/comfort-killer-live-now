@@ -168,7 +168,7 @@ function ProductCard({
           </div>
         )}
 
-        {title === "COMFORT KILLER APPAREL" && (
+        {title == "COMFORT KILLER APPAREL" && (
           <div className="mb-6 relative aspect-[3/4] overflow-hidden rounded shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-neutral-950 border border-white/5">
             <div className="absolute inset-0 bg-noise opacity-30" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
