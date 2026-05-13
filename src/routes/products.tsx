@@ -149,7 +149,7 @@ function ProductCard({
            <div className="absolute top-0 right-0 bg-brand-red text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest z-20">
              Most Essential
            </div>
-    
+      )}    
 
         <span className="text-xs font-black text-brand-red uppercase tracking-[0.2em] mb-2">{type}</span>
         <h3 className="text-2xl font-black mb-4 group-hover:text-brand-red transition-colors">{title}</h3>
