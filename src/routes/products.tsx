@@ -69,6 +69,7 @@ function ProductsPage() {
           {submitted ? (
             <p className="text-brand-red font-black text-xl uppercase italic">The call is coming. Watch your inbox.</p>
           ) : (
+      <>
               <p className="text-white/50 mb-8 max-w-2xl mx-auto font-medium">
                 The inner circle membership is currently closed. Enter your email to be notified when we open new slots for the next cohort.
               </p>
