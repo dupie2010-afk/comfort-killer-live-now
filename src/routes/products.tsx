@@ -48,7 +48,7 @@ function ProductsPage() {
           <ProductCard 
             title="7-DAY PROTOCOL"
             image="/images/Cover.png"
-            price="$9.99"
+            price="$21.00"
             description="The hardcore discomfort challenge designed to kill your autopilot. 7 days of execution. No excuses."
             type="Challenge"
             href="https://payhip.com/b/xQFv4"
