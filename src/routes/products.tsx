@@ -206,7 +206,6 @@ function ProductCard({
             >
               {ctaText}
             </a>
-        </>
           )}
         </div>
       </div>
