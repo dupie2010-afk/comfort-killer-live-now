@@ -73,7 +73,7 @@ function ProductsPage() {
           
           <ProductCard 
             title="The Shadow Protocol"
-            image={protocol}
+            image={shadowprotocol}
             price="COMING SOON"
             description="Forging your deep dark shadows. First drop approaching."
             type="Entity Teaser"
