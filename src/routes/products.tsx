@@ -56,9 +56,9 @@ function ProductsPage() {
           />
           
           <ProductCard 
-            title="COMFORT KILLER APPAREL"
+            title="The Shadow Protocol"
             price="COMING SOON"
-            description="Forged for those escaping the average. First drop approaching."
+            description="Forging your deep dark shadows. First drop approaching."
             type="Apparel Teaser"
             disabled
           />
