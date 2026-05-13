@@ -69,7 +69,7 @@ function ProductsPage() {
           {submitted ? (
             <p className="text-brand-red font-black text-xl uppercase italic">The call is coming. Watch your inbox.</p>
           ) : (
-      <>
+            <>
               <p className="text-white/50 mb-8 max-w-2xl mx-auto font-medium">
                 The inner circle membership is currently closed. Enter your email to be notified when we open new slots for the next cohort.
               </p>
@@ -86,11 +86,12 @@ function ProductsPage() {
                   Notify Me
                 </button>
               </form>
+            </>
           )}
         </div>
       </div>
     </div>
-      });
+  );
 }
 
 function ProductCard({ 
@@ -149,7 +150,25 @@ function ProductCard({
             <div className="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-white/5" />
           </div>
         )}
-        {title == "COMFORT KILLER APPAREL" && (
+
+        {title === "7-DAY PROTOCOL" && (
+          <div className="mb-6 relative aspect-[3/4] overflow-hidden rounded shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-neutral-950 border border-white/5">
+            <div className="absolute inset-0 bg-noise opacity-20" />
+            <div className="absolute inset-0 bg-gradient-to-br from-brand-red/20 via-transparent to-black" />
+            <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
+              <div className="w-16 h-16 border-2 border-brand-red flex items-center justify-center mb-6 rotate-45 group-hover:rotate-90 transition-transform duration-700">
+                <span className="text-white font-black text-2xl -rotate-45 group-hover:-rotate-90 transition-transform duration-700">7</span>
+              </div>
+              <h4 className="text-2xl font-black leading-none tracking-tighter uppercase">
+                THE<br />
+                PROTOCOL
+              </h4>
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-white/5" />
+          </div>
+        )}
+
+        {title === "COMFORT KILLER APPAREL" && (
           <div className="mb-6 relative aspect-[3/4] overflow-hidden rounded shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-neutral-950 border border-white/5">
             <div className="absolute inset-0 bg-noise opacity-30" />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
@@ -167,7 +186,7 @@ function ProductCard({
             </div>
           </div>
         )}
-        {title !== "7 DAY PROTOCOL" && (
+
         <span className="text-xs font-black text-brand-red uppercase tracking-[0.2em] mb-2">{type}</span>
         <h3 className="text-2xl font-black mb-4 group-hover:text-brand-red transition-colors">{title}</h3>
         <p className="text-white/50 mb-8 leading-relaxed flex-1 italic font-medium">"{description}"</p>
@@ -189,7 +208,6 @@ function ProductCard({
           )}
         </div>
       </div>
-    )}
     </motion.div>
   );
 }
