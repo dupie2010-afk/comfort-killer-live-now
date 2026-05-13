@@ -34,7 +34,22 @@ function ProductsPage() {
             Tools for the uncomfortable.
           </p>
         </motion.div>
+        <div className="text-center py-24 border-t border-white/10 border-b border-white/10 mb-20">
+  <p className="text-brand-red uppercase tracking-[0.4em] text-sm mb-6">
+    ENTER THE MOVEMENT
+  </p>
 
+  <h2 className="text-5xl md:text-7xl font-black uppercase leading-none mb-8">
+    Comfort Is
+    <br />
+    The Drug.
+  </h2>
+
+  <p className="max-w-2xl mx-auto text-white/60 text-lg leading-relaxed">
+    Most people stay trapped in loops of distraction, weakness, and delay.
+    Comfort Killer was built for those ready to break the pattern.
+  </p>
+</div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-white">
           <ProductCard 
             title="THE WAKE UP CALL"
