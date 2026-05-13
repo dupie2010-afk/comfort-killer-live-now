@@ -149,60 +149,7 @@ function ProductCard({
            <div className="absolute top-0 right-0 bg-brand-red text-white text-[10px] font-black px-3 py-1 uppercase tracking-widest z-20">
              Most Essential
            </div>
-        )}
-        
-        {title === "THE WAKE UP CALL" && (
-          <div className="mb-6 relative aspect-[3/4] overflow-hidden rounded shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-neutral-950 border border-white/5">
-            <div className="absolute inset-0 bg-noise opacity-20" />
-            <div className="absolute inset-0 bg-gradient-to-br from-brand-red/20 via-transparent to-black" />
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
-              <span className="text-brand-red font-black text-[10px] tracking-[0.3em] uppercase mb-4">Manual</span>
-              <h4 className="text-2xl font-black leading-none tracking-tighter">
-                THE<br />
-                WAKE UP<br />
-                CALL
-              </h4>
-              <div className="w-8 h-0.5 bg-brand-red mt-4" />
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-white/5" />
-          </div>
-        )}
-
-        {title === "7-DAY PROTOCOL" && (
-          <div className="mb-6 relative aspect-[3/4] overflow-hidden rounded shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-neutral-950 border border-white/5">
-            <div className="absolute inset-0 bg-noise opacity-20" />
-            <div className="absolute inset-0 bg-gradient-to-br from-brand-red/20 via-transparent to-black" />
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
-              <div className="w-16 h-16 border-2 border-brand-red flex items-center justify-center mb-6 rotate-45 group-hover:rotate-90 transition-transform duration-700">
-                <span className="text-white font-black text-2xl -rotate-45 group-hover:-rotate-90 transition-transform duration-700">7</span>
-              </div>
-              <h4 className="text-2xl font-black leading-none tracking-tighter uppercase">
-                THE<br />
-                PROTOCOL
-              </h4>
-            </div>
-            <div className="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-white/5" />
-          </div>
-        )}
-
-        {title === "COMFORT KILLER APPAREL" && (
-          <div className="mb-6 relative aspect-[3/4] overflow-hidden rounded shadow-2xl group-hover:scale-105 transition-transform duration-500 bg-neutral-950 border border-white/5">
-            <div className="absolute inset-0 bg-noise opacity-30" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-center">
-              <div className="relative">
-                <div className="w-20 h-20 border-2 border-brand-red/20 rounded-full animate-[spin_10s_linear_infinite]" />
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-brand-red font-black text-2xl tracking-tighter">CK</span>
-                </div>
-              </div>
-              <div className="mt-8 space-y-1">
-                <span className="block text-white/20 font-black text-[10px] tracking-[0.5em] uppercase">Status</span>
-                <span className="block text-brand-red font-black text-[10px] tracking-[0.2em] uppercase animate-pulse">Forging...</span>
-              </div>
-            </div>
-          </div>
-        )}
+    
 
         <span className="text-xs font-black text-brand-red uppercase tracking-[0.2em] mb-2">{type}</span>
         <h3 className="text-2xl font-black mb-4 group-hover:text-brand-red transition-colors">{title}</h3>
