@@ -38,7 +38,6 @@ function ProductsPage() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-white">
           <ProductCard 
             title="THE WAKE UP CALL"
-            price="$6.99"
             description="The definitive digital manual for mindset transformation and discipline building. A brick through the window of your comfort zone."
             type="Ebook / Manual"
             href="https://payhip.com/b/3nePy"
@@ -48,7 +47,6 @@ function ProductsPage() {
           <ProductCard 
             title="7-DAY PROTOCOL"
             image="/images/Cover.png"
-            price="$21.00"
             description="The hardcore discomfort challenge designed to kill your autopilot. 7 days of execution. No excuses."
             type="Challenge"
             href="https://payhip.com/b/xQFv4"
