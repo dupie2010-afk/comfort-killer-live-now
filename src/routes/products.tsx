@@ -90,7 +90,7 @@ function ProductsPage() {
         </div>
       </div>
     </div>
-  );
+      });
 }
 
 function ProductCard({ 
