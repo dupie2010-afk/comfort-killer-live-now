@@ -52,7 +52,7 @@ function ProductsPage() {
             description="The hardcore discomfort challenge designed to kill your autopilot. 7 days of execution. No excuses."
             type="Challenge"
             href="https://payhip.com/b/xQFv4"
-            ctaText="Join Protocol — $9.99"
+            ctaText="Join Protocol — $21.00"
           />
           
           <ProductCard 
