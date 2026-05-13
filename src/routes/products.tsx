@@ -1,7 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { useState } from "react";
-
+import wakeupcall from "../assets/Wakeupcall.png";
+import comfortkiller from "../assets/Comfortkiller.png";
+import shadowprotocol from "../assets/Shadowprotocol.png";
 export const Route = createFileRoute("/products")({
   component: ProductsPage,
 });
