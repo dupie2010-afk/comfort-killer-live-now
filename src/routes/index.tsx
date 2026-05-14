@@ -370,6 +370,34 @@ function AfterProtocolSection() {
             Your discipline sharpens.
             Your identity changes.
           </p>
+          <p>You stop procrastinating.</p>
+
+<p>You stop negotiating with excuses.</p>
+
+<p>You execute faster.</p>
+
+<p>You become mentally harder to break.</p>
+
+<p>
+  You stop consuming motivation
+  and start creating results.
+</p>
+
+<p>
+  You develop discipline that affects
+  your business, money, health,
+  and relationships.
+</p>
+
+<p>
+  You become harder to distract
+  and harder to stop.
+</p>
+
+<p>
+  You stop dreaming about success
+  and start building it.
+</p>
 
           <p className="text-white font-bold">
             You stop watching powerful people
