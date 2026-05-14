@@ -217,19 +217,19 @@ function ProtocolFeature({ title, desc }: { title: string, desc: string }) {
 function TestimonialSection() {
   const displayTestimonials = [
     {
-      name: "Marcus T.",
+      name: "Jason R.",
       role: "Entrepreneur",
-      content: "I was stuck in a six-figure job I hated, numbing myself with high-end restaurants and vacations. Wayne's protocol burned my safety net and forced me to actually live.",
+      content: "I stopped overthinking and started executing. My business finally moved forward because I did.",
     },
     {
-      name: "Sarah J.",
-      role: "Lead Designer",
-      content: "The 7-Day Protocol is psychological warfare against your own laziness. I've never felt more exhausted and more alive at the same time.",
+      name: "Jenna F.",
+      role: "Sales Manager",
+      content: "The Comfort Killer forced me to become disciplined. I make decisions faster, work harder, and hesitate less.",
     },
     {
-      name: "David K.",
-      role: "Veteran",
-      content: "Nobody is coming to save you. Those seven words changed everything. I stopped waiting for permission and started taking ground.",
+      name: "Gary B.",
+      role: "Marketing Director",
+      content: "This has helped me progress massively in my career and home life",
     },
   ];
 
