@@ -61,7 +61,7 @@ function RootComponent() {
               hash="challenge"
               className="bg-brand-red text-white px-6 py-2 font-black uppercase tracking-widest text-xs hover:bg-brand-red-light transition-all shadow-lg"
             >
-              7-Day Protocol
+              Enter the Protocol
             </Link>
           </div>
 
