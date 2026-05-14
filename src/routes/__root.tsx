@@ -58,7 +58,7 @@ function RootComponent() {
             <NavLink to="/contact">Contact</NavLink>
             <Link 
               to="/" 
-              hash="challenge"
+              hash="inside-protocol"
               className="bg-brand-red text-white px-6 py-2 font-black uppercase tracking-widest text-xs hover:bg-brand-red-light transition-all shadow-lg"
             >
               ACCESS THE SYSTEM
