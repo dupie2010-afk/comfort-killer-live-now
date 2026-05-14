@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "BECOME THE PERSON CAPABLE OF SUCCESS | COMFORT KILLER",
+        title: "BUILD YOUR OWN REALITY | EXECUTE YOUR VISION",
       },
     ],
     links: [
