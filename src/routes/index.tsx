@@ -394,7 +394,10 @@ function InsideProtocolSection() {
   ];
 
   return (
-    <section className="py-32 px-6 border-t border-white/10 bg-black">
+    <section
+  id="inside-protocol"
+  className="py-32 px-6 border-t border-white/10 bg-black"
+>
       <div className="max-w-6xl mx-auto">
 
         <div className="text-center mb-20">
