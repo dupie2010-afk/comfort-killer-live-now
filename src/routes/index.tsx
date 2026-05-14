@@ -36,6 +36,7 @@ function RouteComponent() {
       <ProtocolSection />
       <TestimonialSection />
       <MovementSection />
+      <AfterProtocolSection />
       <FinalCTA />
     </div>
   );
@@ -338,7 +339,47 @@ function StatBox({ icon, value, label }: { icon: any, value: string, label: stri
     </div>
   );
 }
+function AfterProtocolSection() {
+  return (
+    <section className="py-32 px-6 border-t border-white/10">
+      <div className="max-w-4xl mx-auto text-center">
 
+        <h2 className="text-5xl md:text-7xl font-black uppercase mb-12 tracking-tight">
+          AFTER THE <span className="text-brand-red">PROTOCOL</span>
+        </h2>
+
+        <div className="space-y-6 text-xl md:text-3xl text-white/80 font-medium leading-relaxed">
+
+          <p>The hesitation dies first.</p>
+
+          <p>Then the excuses.</p>
+
+          <p>
+            Then the version of you that needed comfort to function.
+          </p>
+
+          <p>
+            You begin executing without permission.
+            Moving without motivation.
+            Building without fear.
+          </p>
+
+          <p>
+            Your standards rise.
+            Your discipline sharpens.
+            Your identity changes.
+          </p>
+
+          <p className="text-white font-bold">
+            You stop watching powerful people
+            and become one.
+          </p>
+
+        </div>
+      </div>
+    </section>
+  );
+}
 function FinalCTA() {
   return (
     <section className="relative py-32 md:py-48 flex flex-col items-center justify-center text-center overflow-hidden border-t border-white/5">
