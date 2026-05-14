@@ -229,7 +229,7 @@ function TestimonialSection() {
     {
       name: "Gary B.",
       role: "Marketing Director",
-      content: "This has helped me progress massively in my career and home life",
+      content: "My confidence, income, and discipline all changed when I stopped negotiating with myself.",
     },
   ];
 
