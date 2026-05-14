@@ -488,7 +488,7 @@ function FinalCTA() {
           </h2>
           
           <p className="text-lg md:text-3xl text-white/60 mb-10 md:mb-16 font-black uppercase tracking-widest max-w-2xl mx-auto leading-tight">
-            The decision is the only thing standing between you and the man you're supposed to be.
+            The decision is the only thing standing between you and the person you're supposed to be.
           </p>
 
           <div className="flex flex-col md:flex-row justify-center gap-8 items-center">
