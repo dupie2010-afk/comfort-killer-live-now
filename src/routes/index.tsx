@@ -73,16 +73,13 @@ function Hero() {
             </div>
             
             <h1 className="text-[15vw] md:text-[10vw] font-black leading-[0.8] tracking-tighter uppercase mb-8 md:mb-10 italic">
-              WAKE <span className="text-brand-red text-glow">UP</span> <br />
-              <span className="relative">
-                OR STAY <br />
-                <span className="bg-brand-red px-3 md:px-4 py-0 not-italic text-black">WEAK.</span>
-              </span>
+             BECOME THE PERSON <br />
+CAPABLE OF <br /> <span className="text-brand-red text-glow">SUCCESS</span> <br />
             </h1>
             
             <p className="text-base md:text-2xl text-white/50 mb-10 md:mb-14 max-w-2xl mx-auto font-bold uppercase tracking-tight leading-snug">
-              The world is designed to sedate you. <br />
-              We are here to <span className="text-white italic">kill the comfort addiction.</span>
+              Discipline. Focus. Execution. <br />
+Identity reconstruction for people ready to level up.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 md:gap-6 w-full sm:w-auto">
