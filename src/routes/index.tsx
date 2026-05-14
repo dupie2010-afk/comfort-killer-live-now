@@ -37,6 +37,7 @@ function RouteComponent() {
       <TestimonialSection />
       <MovementSection />
       <AfterProtocolSection />
+      <InsideProtocolSection />
       <FinalCTA />
     </div>
   );
@@ -376,6 +377,53 @@ function AfterProtocolSection() {
           </p>
 
         </div>
+      </div>
+    </section>
+  );
+}
+function InsideProtocolSection() {
+  const items = [
+    "Identity Reconstruction Framework",
+    "Execution Conditioning System",
+    "Discipline Reinforcement Methods",
+    "Psychological Override Techniques",
+    "Comfort Addiction Deconstruction",
+    "Mental Warfare Principles",
+    "Self-Command Protocols",
+    "Reality Reconstruction Exercises",
+  ];
+
+  return (
+    <section className="py-32 px-6 border-t border-white/10 bg-black">
+      <div className="max-w-6xl mx-auto">
+
+        <div className="text-center mb-20">
+          <p className="text-brand-red uppercase tracking-[0.4em] font-bold mb-6">
+            CLASSIFIED ACCESS
+          </p>
+
+          <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tight mb-8">
+            INSIDE THE <span className="text-brand-red">PROTOCOL</span>
+          </h2>
+
+          <p className="text-white/60 text-xl max-w-3xl mx-auto leading-relaxed">
+            Every section was designed to destroy hesitation,
+            rebuild discipline,
+            and force psychological evolution.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className="border border-white/10 bg-white/[0.03] p-8 uppercase tracking-wide text-lg md:text-xl font-bold hover:border-brand-red transition-all duration-300"
+            >
+              {item}
+            </div>
+          ))}
+        </div>
+
       </div>
     </section>
   );
