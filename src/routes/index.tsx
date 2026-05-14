@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       {
-        title: "WAKE UP OR STAY WEAK | COMFORT KILLER",
+        title: "BECOME THE PERSON CAPABLE OF SUCCESS | COMFORT KILLER",
       },
     ],
     links: [
@@ -179,9 +179,9 @@ function ProtocolSection() {
             </p>
 
             <div className="grid gap-8">
-              <ProtocolFeature title="Neural Reprogramming" desc="Destroy the mental pathways that lead to hesitation and excuse." />
-              <ProtocolFeature title="Visceral Accountability" desc="A system that doesn't care about your feelings, only your results." />
-              <ProtocolFeature title="7-Day Extraction" desc="A brutal week of intentional discomfort to find your baseline." />
+              <ProtocolFeature title="SUCCESS CONDITIONING" desc="Stop fantasizing about success and start becoming the person capable of creating it." />
+              <ProtocolFeature title="EXECUTION REPROGRAMMING" desc="Destroy hesitation and rebuild the mindset required for success, discipline, and relentless execution." />
+              <ProtocolFeature title="IDENTITY EXTRACTION" desc="Break free from the old, distracted version of yourself and rebuild the person you were meant to become." />
             </div>
 
             <div className="pt-8 flex flex-col sm:flex-row items-center gap-8">
