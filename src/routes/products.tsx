@@ -54,7 +54,7 @@ function ProductsPage() {
 </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-white">
           <ProductCard 
-            title="THE WAKE UP CALL"
+            title="A INSTANT EYE OPENER"
             image={wakeupcall}
             description="A brutal reminder of who you’re becoming."
             type="Ebook"
@@ -63,7 +63,7 @@ function ProductsPage() {
           />
           
           <ProductCard 
-            title="THE AWAKENING"
+            title="A REAL AWAKENING"
             image={comfortkiller}
             description="A Cinematic immersion for those breaking free from comfort addiction."
             type="IMMERSION"
