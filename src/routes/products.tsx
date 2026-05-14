@@ -56,19 +56,19 @@ function ProductsPage() {
           <ProductCard 
             title="THE WAKE UP CALL"
             image={wakeupcall}
-            description="The definitive digital manual for mindset transformation and discipline building. A brick through the window of your comfort zone."
-            type="Ebook / Manual"
+            description="A brutal reminder of who you’re becoming."
+            type="Ebook"
             href="https://payhip.com/b/3nePy"
             featured
           />
           
           <ProductCard 
-            title="7-DAY PROTOCOL"
+            title="THE AWAKENING"
             image={comfortkiller}
-            description="The hardcore discomfort challenge designed to kill your autopilot. 7 days of execution. No excuses."
-            type="Challenge"
+            description="A Cinematic immersion for those breaking free from comfort addiction."
+            type="IMMERSION"
             href="https://payhip.com/b/xQFv4"
-            ctaText="Join Protocol"
+            ctaText="MAKE THE CHANGE"
           />
           
           <ProductCard 
@@ -76,7 +76,7 @@ function ProductsPage() {
             image={shadowprotocol}
             price="COMING SOON"
             description="Forging your deep dark shadows. First drop approaching."
-            type="Entity Teaser"
+            type="The Entity"
             disabled
           />
         </div>
