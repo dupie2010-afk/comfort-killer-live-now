@@ -66,9 +66,8 @@ For people who know they’re drifting."
           <ProductCard 
             title="A REAL AWAKENING" 
             image={comfortkiller}
-            description="$14.99 THE FULL RESET SYSTEM
-
-Built to expose comfort, rebuild standards and force action.
+            description="$14.99 THE FULL RESET SYSTEM 
+Built to expose comfort, rebuild standards and force action."
             type="DOCTRINE"
             href="https://payhip.com/b/xQFv4"
             ctaText="Start your RESET"
