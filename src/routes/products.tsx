@@ -53,10 +53,12 @@ function ProductsPage() {
 </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-white">
           <ProductCard 
-            title="A INSTANT EYE OPENER" 
+            title="THE WAKE-UP CALL" 
             image={wakeupcall}
-            description="This is not Motivation. This is a Mirror."
-            type="Ebook"
+            description="$7.99 A FAST BRUTAL CONFRONTATION
+
+For people who know they’re drifting."
+            type="IMMERSION"
             href="https://payhip.com/b/3nePy"
             featured
           />
@@ -65,7 +67,7 @@ function ProductsPage() {
             title="A REAL AWAKENING" 
             image={comfortkiller}
             description="Day 3 she registered her Business. Day 4 he chose Sobriety"
-            type="IMMERSION"
+            type="DOCTRINE"
             href="https://payhip.com/b/xQFv4"
             ctaText="Start your RESET"
           />
