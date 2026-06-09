@@ -56,7 +56,7 @@ function ProductsPage() {
           <ProductCard 
             title="A INSTANT EYE OPENER"
             image={wakeupcall}
-            description="A brutal reminder of who you’re becoming."
+            description="This is not Motivation. This is a Mirror."
             type="Ebook"
             href="https://payhip.com/b/3nePy"
             featured
@@ -65,17 +65,17 @@ function ProductsPage() {
           <ProductCard 
             title="A REAL AWAKENING"
             image={comfortkiller}
-            description="A Cinematic immersion for those breaking free from comfort addiction."
+            description="Day 3 she registered her Business. Day 4 he chose Sobriety"
             type="IMMERSION"
             href="https://payhip.com/b/xQFv4"
-            ctaText="MAKE THE CHANGE"
+            ctaText="Start your RESET"
           />
           
           <ProductCard 
             title="The Shadow Protocol"
             image={shadowprotocol}
             price="COMING SOON"
-            description="Forging your deep dark shadows. First drop approaching."
+            description="Forging your deep dark shadows. WAITLISTED."
             type="The Entity"
             disabled
           />
