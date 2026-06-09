@@ -66,7 +66,9 @@ For people who know they’re drifting."
           <ProductCard 
             title="A REAL AWAKENING" 
             image={comfortkiller}
-            description="Day 3 she registered her Business. Day 4 he chose Sobriety"
+            description="$14.99 THE FULL RESET SYSTEM
+
+“Built to expose comfort, rebuild standards and force action.”"
             type="DOCTRINE"
             href="https://payhip.com/b/xQFv4"
             ctaText="Start your RESET"
