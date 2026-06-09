@@ -48,8 +48,7 @@ function ProductsPage() {
   </h2>
 
   <p className="max-w-2xl mx-auto text-white/60 text-lg leading-relaxed">
-    Most people stay trapped in loops of distraction, weakness, and delay.
-    Comfort Killer was built for those ready to break the pattern.
+    Comfort doesn’t destroy people instantly. It slowly lowers standards, kills urgency and makes delay feel safe.
   </p>
 </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-white">
